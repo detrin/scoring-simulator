@@ -1,2 +1,3 @@
 commit	val_gini	status	description
-9b1c627	0.4861	keep	LGB 15 leaves, 915 iters, 53 features (11 cat + 42 num)
+9b1c627	0.4861	discard	LGB 15 leaves, 915 iters, 53 features (11 cat + 42 num)
+6636057	0.4871	keep	LGB 15 leaves lr=0.05, 2780 iters, WOE+LR=0.3989
