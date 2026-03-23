@@ -1,1 +1,2 @@
 commit	val_gini	status	description
+bbb77b7	0.6319	keep	WOE+LR baseline, 59 features IV>=0.02, C=1.0
