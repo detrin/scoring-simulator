@@ -1,3 +1,4 @@
 commit	val_gini	status	description
 ee63de6	0.4587	discard	baseline WOE+LR, 5 features IV>=0.02, C=1.0
-aa13f77	0.4875	keep	LGB raw best (vs WOE+LR 0.4587, ensemble 0.4805)
+aa13f77	0.4875	discard	LGB raw best (vs WOE+LR 0.4587, ensemble 0.4805)
+8b14f2d	0.4889	keep	LGB 15 leaves + interactions, 72 features, reg_alpha/lambda=1.0
