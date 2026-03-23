@@ -4,4 +4,5 @@ commit	val_gini	status	description
 ae82b18	0.4871	discard	wider LGB search (6 configs, higher LRs), WOE all=0.3991 (no improvement)
 60f17ac	0.4893	discard	LGB 7 leaves lr=0.05 2587 iters all features, sel LGB=0.4375 (worse)
 f7a9746	0.4990	discard	LGB 5 leaves lr=0.05 4694 iters, high reg (alpha=2, lambda=2)
-f8273f6	0.4992	keep	LGB 5 leaves lr=0.05 4990 iters, fine-tuned reg=2 optimal
+f8273f6	0.4992	discard	LGB 5 leaves lr=0.05 4990 iters, fine-tuned reg=2 optimal
+8e5c587	0.4997	keep	LGB 5 leaves lr=0.05 5339 iters, 3 leaves=0.4740 (worse)
