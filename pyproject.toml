@@ -1,0 +1,13 @@
+[project]
+name = "scoring-simulator"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "polars",
+    "optbinning",
+    "lightgbm",
+    "scikit-learn",
+    "mlflow",
+    "papermill",
+    "ipykernel",
+]

@@ -1,0 +1,26 @@
+# Data files
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# Notebook outputs
+*_out.ipynb
+run.log
+
+# MLflow
+mlruns/
+
+# uv
+.venv/
+.uv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
