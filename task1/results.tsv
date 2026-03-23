@@ -3,3 +3,4 @@ ee63de6	0.4587	discard	baseline WOE+LR, 5 features IV>=0.02, C=1.0
 aa13f77	0.4875	discard	LGB raw best (vs WOE+LR 0.4587, ensemble 0.4805)
 8b14f2d	0.4889	discard	LGB 15 leaves + interactions, 72 features (overfit risk for OOT)
 648aece	0.4878	keep	LGB 31 leaves, 42 raw features, no interactions (stability-focused)
+7e3ac95	0.4878	discard	WOE_ALL+LR=0.4588, LGB raw=0.4878, LGB WOE=0.4725 (no improvement)
