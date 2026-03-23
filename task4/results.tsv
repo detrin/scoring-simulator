@@ -2,4 +2,5 @@ commit	val_gini	status	description
 9b1c627	0.4861	discard	LGB 15 leaves, 915 iters, 53 features (11 cat + 42 num)
 6636057	0.4871	keep	LGB 15 leaves lr=0.05, 2780 iters, WOE+LR=0.3989
 ae82b18	0.4871	discard	wider LGB search (6 configs, higher LRs), WOE all=0.3991 (no improvement)
-60f17ac	0.4893	keep	LGB 7 leaves lr=0.05 2587 iters all features, sel LGB=0.4375 (worse)
+60f17ac	0.4893	discard	LGB 7 leaves lr=0.05 2587 iters all features, sel LGB=0.4375 (worse)
+f7a9746	0.4990	keep	LGB 5 leaves lr=0.05 4694 iters, high reg (alpha=2, lambda=2)
