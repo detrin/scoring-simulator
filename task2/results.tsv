@@ -2,3 +2,4 @@ commit	val_gini	status	description
 bbb77b7	0.6319	discard	WOE+LR baseline, 59 features IV>=0.02, C=1.0
 84a34b6	0.6335	discard	ensemble 65%LR+35%LGB, C=0.1, 59 features
 03d8f25	0.6347	keep	ensemble 45%LR+55%LGB, LGB 15 leaves lr=0.01 1277 iters
+7ae2726	0.6334	discard	label enc cats + categorical_feature, LGB worse (0.6303 vs 0.6326)
