@@ -1,0 +1,6 @@
+commit	val_gini	status	description
+1be8ec2	0.6976	discard	LGB 100 features, tx aggs + time windows + cat pivots + ratios
+31db55b	0.7115	keep	LGB 31 leaves lr=0.01 1021 iters, WOE+LR=0.6245, 96 selected features
+e9076ba	0.7081	discard	added 7d/14d windows, 142 features, overfit on small train set
+1984f6e	0.7096	discard	LGB on WOE features=0.6705, raw LGB=0.7096 (no improvement)
+faf0611	0.7094	discard	trend features (109 feats), simpler LGB, overfit on small train
